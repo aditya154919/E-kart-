@@ -67,7 +67,7 @@ useEffect(() => {
 }, [cartItem]);
 
   return (
-    <BrowserRouter basename='/E-kart-/'>
+    <BrowserRouter basename='/E-kart-'>
       <Navbar
         location={location}
         geolocation={getLocation}
