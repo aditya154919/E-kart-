@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@import "react-toastify/dist/ReactToastify.css";
+
+
+.cl-avatarBox{
+    width:2rem;
+    height:2rem}
+
+.arrows{
+    height: 40px;
+    width: 40px;
+    margin: 1px;
+}    
+/* Hide default slick arrows */
+.slick-prev:before,
+.slick-next:before {
+  display: none;
+}
