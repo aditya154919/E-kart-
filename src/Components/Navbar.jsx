@@ -56,7 +56,7 @@ const Navbar = ({location,getlocation,isDropDown ,setIsDropDown}) => {
               to={"/"}
               className={({ isActive }) =>
                 `${isActive
-                  ? "text-[#8245ec] transition-all duration-100"
+                  ? "text-red-500 transition-all duration-100"
                   : "text-black"
                 } cursor-pointer`
               }
@@ -67,7 +67,7 @@ const Navbar = ({location,getlocation,isDropDown ,setIsDropDown}) => {
               to={"/products"}
               className={({ isActive }) =>
                 `${isActive
-                  ? "text-[#8245ec] transition-all duration-100"
+                  ? "text-red-500 transition-all duration-100"
                   : "text-black"
                 } cursor-pointer`
               }
@@ -78,7 +78,7 @@ const Navbar = ({location,getlocation,isDropDown ,setIsDropDown}) => {
               to={"/about"}
               className={({ isActive }) =>
                 `${isActive
-                  ? "text-[#8245ec] transition-all duration-100"
+                  ? "text-red-500 transition-all duration-100"
                   : "text-black"
                 } cursor-pointer`
               }
@@ -89,7 +89,7 @@ const Navbar = ({location,getlocation,isDropDown ,setIsDropDown}) => {
               to={"/contact"}
               className={({ isActive }) =>
                 `${isActive
-                  ? "text-[#8245ec] transition-all duration-100"
+                  ? "text-red-500 transition-all duration-100"
                   : "text-black"
                 } cursor-pointer`
               }

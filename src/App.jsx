@@ -87,7 +87,7 @@ useEffect(() => {
 
       <Footer />
 
-      {/* ✅ Toast container must be inside the JSX tree once */}
+     
       <ToastContainer position="bottom-right" autoClose={2000} />
     </BrowserRouter>
   )

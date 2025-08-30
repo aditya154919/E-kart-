@@ -193,7 +193,7 @@ const Cart = ({ getLocation, location }) => {
               <hr className="text-gray-200 mt-2" />
               <div className="flex justify-between items-center">
                 <h1 className="text-xl font-bold">Grand Total</h1>
-                <p>${totalPrice > 100 ? totalPrice + 7 : totalPrice + 5}</p>
+                <p>${totalPrice > 100 ? totalPrice + 7 : totalPrice + 12}</p>
               </div>
               <div className="flex flex-col gap-2 mt-7">
                 <p>Apply promo code</p>

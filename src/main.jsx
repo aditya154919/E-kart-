@@ -21,9 +21,9 @@ createRoot(document.getElementById('root')).render(
         <CartProvider>
           <App />
           <ScrollToTop 
-            color="white" 
+            color='red'
             smooth 
-            className="flex items-center justify-center bg-[#fa2d37]" 
+            className='flex items-center justify-center bg-red-500'
           />
         </CartProvider>
       </DataProvider>
